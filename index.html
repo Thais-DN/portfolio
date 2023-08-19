@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">
+                Home</a>
+            <a class="cabecalho__menu__link" href="about.html" >
+                Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
             <section class="apresentacao__conteudo">
                 <h1 class="apresentacao__conteudo__titulo">
@@ -20,14 +28,24 @@
                     Olá! Sou Thais Dias, estou iniciando no mundo tecnologico e adquirindo diversos conhecimentos. Bem-vindoa(a) à minha jornada, estou animada por compartilhar meus avanços com vocês.
                 </p>
                 <div class="apresentacao__links">
-                    <a class="apresentacao__links__link" href="https://www.instagram.com/thaix_nunex/" target="blank" >instagram</a>
-                    <a class="apresentacao__links__link" href="https://github.com/Thais-DN" target="blank">github</a>
+                    <h2 class="apresentacao__links__subtitulo">
+                        Acesse minhas redes:</h2>
+                    <a class="apresentacao__links__link" href="https://www.instagram.com/thaix_nunex/" target="blank">
+                        <i class="fa fa-instagram  fa-lg" aria-hidden="true"></i>
+                            instagram
+                        </a>
+                    <a class="apresentacao__links__link " href="https://github.com/Thais-DN" target="blank">
+                        <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                            github
+                        </a>
                 </div>
             </section>
             <div>
-                <img class="imagem" src="imagem.jpg" alt="foto de Thais com dog">
+                <img class="apresentacao__imagem" src="./assets/imagem.jpg" alt="foto de Thais com dog">
             </div>
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Thais.</p>
+        </footer>
 </body>
 </html>
