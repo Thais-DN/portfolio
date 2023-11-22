@@ -40,12 +40,23 @@
                         </a>
                 </div>
             </section>
-            <div>
-                <img class="apresentacao__imagem" src="./assets/imagem.jpg" alt="foto de Thais com dog">
-            </div>
+                <!-- <img class="apresentacao__imagem" src="./assets/image_portfolio.jpeg" alt="foto de Thais com dog"> -->
+                <div id="imageContainer">
+                    <img id="myImage" class="apresentacao__imagem" src="./assets/image_portfolio.jpeg" usemap="#imagemMapa" alt="Imagem com áreas clicáveis">
+                    <map name="imagemMapa">
+                      <area shape="rect" coords="152,227,203,244" alt="Área Olhos" onmouseover="exibirOculos(), exibirTrio()">
+                      <!-- Adicione mais áreas conforme necessário -->
+                    </map>
+                    <img id="glasses" src="./assets/oculosHP.gif" alt="Óculos" width="100" height="auto">
+                    </map>
+                    <img id="trio" src="./assets/3Maria.png" alt="logo trio" width="300" height="auto">
+
+                </div>
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Thais.</p>
         </footer>
+
+        <script src="./script/script.js"></script>
 </body>
 </html>

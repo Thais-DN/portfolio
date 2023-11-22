@@ -93,7 +93,7 @@ body {
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
-    border-style: inset;
+    border-style: solid;
     border-width: 7px;
 }
 
@@ -134,4 +134,26 @@ body {
     .cabecalho__menu{
         justify-content: center;
     }
+}
+
+#imageContainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+#glasses {
+    position: absolute;
+    display: none;
+    /* Defina a posição fixa dos óculos dentro da área dos olhos */
+    left: 230px; /* Coordenada X do canto superior esquerdo */
+    top: 300px; /* Coordenada Y do canto superior esquerdo */
+    transform: rotate(6deg); /* Rotação e transladação */
+}
+
+#trio {
+    position: absolute;
+    display: none;
+    /* Defina a posição fixa dos óculos dentro da área dos olhos */
+    left: 180px; /* Coordenada X do canto superior esquerdo */
+    top: 128px; /* Coordenada Y do canto superior esquerdo */
 }
